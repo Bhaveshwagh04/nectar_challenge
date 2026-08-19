@@ -1,0 +1,8 @@
+{
+  "total_rows": 380160,
+  "statistical_threshold_flags": 3453,
+  "isolation_forest_flags": 1901,
+  "flagged_by_both": 82,
+  "flagged_by_either": 5272,
+  "pct_flagged": 1.387
+}

@@ -1,0 +1,43 @@
+telemetry rows: 380,160
+assets: 66, sites: 3, buildings: 6
+date range: 2026-06-20 12:15:00 to 2026-08-19 12:00:00
+
+missing value % by column:
+humidity             1.525936
+temperature          1.514362
+vibration            1.505682
+pressure             1.489636
+power_consumption    1.483323
+
+average sensor values by asset type:
+             power_consumption  vibration  temperature
+asset_type                                            
+AHU                      27.15       6.46        20.88
+Chiller                 247.73       8.19        10.52
+EnergyMeter               0.00       3.57        24.15
+EnvSensor                 0.20       5.64        26.46
+Pump                     11.62       6.23        26.99
+
+average power consumption by site:
+site_id
+SITE_A    37.40
+SITE_C    30.88
+SITE_B    28.07
+
+sensor correlation matrix:
+                   temperature  humidity  pressure  vibration  power_consumption  occupancy_count
+temperature               1.00     -0.10     -0.39       0.32              -0.46             0.00
+humidity                 -0.10      1.00      0.19      -0.19              -0.04             0.01
+pressure                 -0.39      0.19      1.00      -0.86              -0.21            -0.01
+vibration                 0.32     -0.19     -0.86       1.00               0.31             0.01
+power_consumption        -0.46     -0.04     -0.21       0.31               1.00             0.19
+occupancy_count           0.00      0.01     -0.01       0.01               0.19             1.00
+
+24h-before-fault vs normal operation, mean values:
+                   normal  pre_fault_24h  pct_increase
+temperature        23.427         26.884          14.8
+vibration           5.981          8.123          35.8
+power_consumption  33.831         11.536         -65.9
+
+total fault events: 5
+assets that experienced >=1 fault: 5 of 66

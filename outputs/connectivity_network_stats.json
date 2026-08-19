@@ -1,0 +1,7 @@
+{
+  "num_assets": 66,
+  "num_connections": 58,
+  "avg_out_degree": 0.8787878787878788,
+  "isolated_asset_count": 0,
+  "weakly_connected_components": 8
+}

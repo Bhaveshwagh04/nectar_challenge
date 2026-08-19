@@ -1,0 +1,42 @@
+{
+  "duplicate_connections": [
+    {
+      "source_asset_id": "AST_0001",
+      "target_asset_id": "AST_0002",
+      "connection_type": "Monitors",
+      "relationship_strength": 0.96
+    },
+    {
+      "source_asset_id": "AST_0001",
+      "target_asset_id": "AST_0002",
+      "connection_type": "Monitors",
+      "relationship_strength": 0.96
+    }
+  ],
+  "invalid_parent_mappings": [
+    {
+      "source_asset_id": "AST_9999",
+      "target_asset_id": "AST_0047",
+      "connection_type": "Monitors",
+      "relationship_strength": 0.73
+    },
+    {
+      "source_asset_id": "AST_9999",
+      "target_asset_id": "AST_0058",
+      "connection_type": "Monitors",
+      "relationship_strength": 0.66
+    }
+  ],
+  "orphan_assets": [],
+  "assets_with_invalid_parent": [
+    {
+      "asset_id": "AST_0047",
+      "parent_asset_id": "AST_9999"
+    },
+    {
+      "asset_id": "AST_0058",
+      "parent_asset_id": "AST_9999"
+    }
+  ],
+  "isolated_nodes_in_graph": []
+}
